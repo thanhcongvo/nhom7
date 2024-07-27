@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <style>
+        .thumbnail {
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .thumbnail img {
+            width: 100%;
+            height: auto;
+        }
+        .list-group-item {
+            cursor: pointer;
+        }
+        .btn-sm {
+            margin-top: 5px;
+        }
+        .navbar-fixed-bottom {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">E-Commerce</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="account.html">Account</a></li>
+                <li><a href="category.html">Categories</a></li>
+                <li><a href="product.html">Products</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div id="content" class="container">
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="col-xs-12 col-md-3">
+                <h3>Manage Orders</h3>
+                <div class="list-group">
+                    <a href="account.html" class="list-group-item">All Orders</a>
+                    <a href="account.html" class="list-group-item">Manage Feedback</a>
+                    <a href="account.html" class="list-group-item">My Coupons</a>
+                    <a href="account.html" class="list-group-item">My Shipping Address</a>
+                </div>
+            </div>
+            <!-- Order List -->
+            <div class="col-xs-12 col-md-9">
+                <h3>My Orders</h3>
+                <div class="thumbnail">
+                    <div class="row">
+                        <div class="col-xs-4 col-sm-3">
+                            <img src="images/iphone 15.jpg" alt="Product Image" class="img-responsive">
+                        </div>
+                        <div class="col-xs-8 col-sm-4">
+                            <a href="product.html">Iphone 15</a>
+                        </div>
+                        <div class="col-xs-6 col-sm-2">1</div>
+                        <div class="col-xs-6 col-sm-2">$1399.99</div>
+                        <div class="col-xs-6 col-sm-1">
+                            <button class="btn btn-sm btn-default">Track</button>
+                        </div>
+                        <div class="col-xs-6 col-sm-2">
+                            <a href="#">1 Message</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more orders similarly -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container">
+            <p class="text-center">© 2024 Iphone Store </p>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <style>
+        .thumbnail {
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .thumbnail img {
+            width: 100%;
+            height: auto;
+        }
+        .list-group-item {
+            cursor: pointer;
+        }
+        .btn-primary {
+            margin-top: 5px;
+        }
+        .navbar-fixed-bottom {
+            margin-top: 20px;
+            padding: 10px 0;
+        }
+        footer {
+            background-color: #f8f8f8;
+            border-top: 1px solid #e7e7e7;
+        }
+        .caption {
+            text-align: center;
+        }
+        @media (max-width: 767px) {
+            .navbar-header {
+                float: none;
+            }
+            .navbar-toggle {
+                display: block;
+            }
+            .navbar-collapse {
+                clear: both;
+            }
+            .navbar-nav {
+                float: none !important;
+                margin: 7.5px -15px;
+            }
+            .navbar-nav > li {
+                float: none;
+            }
+            .navbar-nav > li > a {
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">E-Commerce</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="account.html">Account</a></li>
+                    <li><a href="category.html">Categories</a></li>
+                    <li><a href="product.html">Products</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div id="content" class="container" style="padding-top: 70px;">
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="col-md-3">
+                <h3>Categories</h3>
+                <div class="list-group">
+                    <a href="#" class="list-group-item">Category 1</a>
+                    <a href="#" class="list-group-item">Category 2</a>
+                    <a href="#" class="list-group-item">Category 3</a>
+                </div>
+            </div>
+            <!-- Product List -->
+            <div class="col-md-9">
+                <div class="row">
+                    <!-- iPhone X -->
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="images/iphone x.jpg" alt="iphone X">
+                        <div class="caption">
+                                <h3>iPhone X</h3>
+                                <p>$500.00</p>
+                                <p><a href="#" class="btn btn-primary" role="button">Buy Now</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- iPhone XS -->
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="images/iphone xs.jpg" alt="iPhone XS">
+                            <div class="caption">
+                                <h3>iPhone XS</h3>
+                                <p>$599.99</p>
+                                <p><a href="#" class="btn btn-primary" role="button">Buy Now</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- iPhone 11 -->
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="images/iphone 11.jpg" alt="iPhone 11">
+                            <div class="caption">
+                                <h3>iPhone 11</h3>
+                                <p>$699.99</p>
+                                <p><a href="#" class="btn btn-primary" role="button">Buy Now</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- iPhone 12 -->
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="images/iphone 12.jpg" alt="iPhone 12">
+                            <div class="caption">
+                                <h3>iPhone 12</h3>
+                                <p>$799.99</p>
+                                <p><a href="#" class="btn btn-primary" role="button">Buy Now</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- iPhone 13 -->
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="images/iphone 13.jpg" alt="iPhone 13">
+                            <div class="caption">
+                                <h3>iPhone 13</h3>
+                                <p>$899.99</p>
+                                <p><a href="#" class="btn btn-primary" role="button">Buy Now</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- iPhone 14 -->
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="images/iphone 14.jpg" alt="iPhone 14">
+                            <div class="caption">
+                                <h3>iPhone 14</h3>
+                                <p>$999.99</p>
+                                <p><a href="#" class="btn btn-primary" role="button">Buy Now</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- iPhone 15 -->
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="images/iphone 15.jpg" alt="iPhone 15">
+                            <div class="caption">
+                                <h3>iPhone 15</h3>
+                                <p>$1399.99</p>
+                                <p><a href="#" class="btn btn-primary" role="button">Buy Now</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more iPhone models similarly -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container">
+            <p class="text-center">© 2024 Iphone Store </p>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
